@@ -5,7 +5,7 @@ import './Header.css'
 const NAV_ITEMS = [
   { label: 'Home', to: '/' },
   { label: 'About Us', to: '/about-us' },
-  { label: 'Our Services', to: '/our-services' },
+  { label: 'Our Services', to: '/our-services ' },
   // { label: 'Partners', to: '/partners' },
   // { label: 'Our Fleet', to: '/fleet' },
   // { label: 'Contact', to: '/contact-us' },
