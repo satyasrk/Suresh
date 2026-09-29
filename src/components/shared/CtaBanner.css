@@ -1,0 +1,9 @@
+/* CTA banner — background color previously applied via inline
+   style="background-color: #003087;" (index/ourServices) */
+.cta-banner {
+  background-color: #003087;
+}
+
+.cta-phone-icon {
+  color: #0c2038;
+}

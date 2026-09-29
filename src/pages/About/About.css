@@ -1,0 +1,21 @@
+/* About page styles — migrated from aboutUs.html internal styles + inline colors */
+
+/* About hero: bg-[#001D59] */
+.about-hero {
+  background-color: #001d59;
+}
+
+/* Stats / Why section: bg-[#001D59] */
+.about-stats-section {
+  background-color: #001d59;
+}
+
+/* Why Ultra Miles cards: bg-[#002B7A]/60 */
+.about-why-card {
+  background-color: rgba(0, 43, 122, 0.6);
+}
+
+/* CTA banner: bg-[#003087] */
+.about-cta {
+  background-color: #003087;
+}

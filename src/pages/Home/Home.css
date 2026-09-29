@@ -1,0 +1,29 @@
+/* Home page styles — migrated from index.html internal <style> + inline styles */
+
+/* Hero section background color was bg-brand-navy with an inline
+   style="background: linear-gradient(90deg, rgba(0, 48, 135, ...) ...)"
+   overlay on top of the image. */
+.hero-section {
+  background-color: #0c2038;
+}
+
+/* Inline hero overlay from index.html (replaces .hero-gradient-overlay
+   colors for the home hero specifically) */
+.home-hero-overlay {
+  background: linear-gradient(90deg, rgba(0, 48, 135, 0.94) 0%, rgba(0, 48, 135, 0.82) 45%, rgba(0, 48, 135, 0.4) 100%);
+}
+
+/* TopPartnersStrip had inline style="background-color: #FFFFFF;" */
+.home-partners-strip {
+  background-color: #ffffff;
+}
+
+/* PoweringDeliveriesPartnersSection had inline style="background-color: #003087;" */
+.home-partners-section {
+  background-color: #003087;
+}
+
+/* KeyHighlightsStats had inline style="background-color: #FFFFFF;" */
+.home-metrics-bar {
+  background-color: #ffffff;
+}

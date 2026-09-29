@@ -1,0 +1,390 @@
+<!DOCTYPE html><html lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Contact Us | Ultra Miles Delivery Services LLC</title>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#D9822B',
+              'gold-hover': '#C07122',
+              'gold-light': '#F5A623',
+              navy: '#0C2038',
+              'navy-dark': '#071526',
+              'navy-light': '#152E4D',
+              blue: '#0F2642'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            script: ['Caveat', 'Brush Script MT', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+<!-- Google Fonts: Inter & Caveat -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<style data-purpose="custom-decorations">
+    .skyline-overlay {
+      background: linear-gradient(90deg, rgba(8, 22, 38, 0.95) 0%, rgba(12, 32, 56, 0.88) 50%, rgba(12, 32, 56, 0.7) 100%);
+    }
+  </style>
+</head>
+<body class="font-sans text-slate-800 bg-white antialiased selection:bg-brand-gold selection:text-white min-h-screen flex flex-col">
+<!-- TopNavBar (Matching Home Page) -->
+<header class="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="flex items-center gap-3 group" data-purpose="header-logo" href="#"><div class="relative flex items-center justify-center w-12 h-12 rounded-full border-2 border-brand-navy p-1">
+<svg class="w-8 h-8 text-brand-navy" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+<circle cx="18.5" cy="17.5" r="3.5"></circle>
+<circle cx="5.5" cy="17.5" r="3.5"></circle>
+<circle cx="15" cy="5" r="1"></circle>
+<path d="M12 17.5V14l-3-3 4-3 2 3h2"></path>
+<path d="M7 6c2.5-1.5 6-1.5 8.5 0" stroke="#FFB300" stroke-width="2.5"></path>
+<path d="M5 8.5c3-2 8-2 11 0" stroke="#FFB300" stroke-width="1.8"></path>
+</svg>
+</div>
+<div class="flex flex-col"><span class="text-xl font-black tracking-tight text-[#003087] leading-none">ULTRA MILES</span><span class="text-[9px] font-semibold uppercase tracking-widest text-[#FFB300] mt-1">Delivery Services LLC</span></div></a>
+<!-- Navigation Links -->
+<nav class="hidden md:flex items-center space-x-8 font-medium text-sm text-slate-700">
+<a class="hover:text-brand-gold transition-colors" href="#">Home</a>
+<a class="hover:text-brand-gold transition-colors" href="#">About Us</a>
+<a class="hover:text-brand-gold transition-colors" href="#">Our Services</a>
+<a class="hover:text-brand-gold transition-colors" href="#">Partners</a>
+<a class="hover:text-brand-gold transition-colors" href="#">Our Fleet</a>
+<!-- Active link: Contact -->
+<a class="text-brand-gold font-semibold border-b-2 border-brand-gold pb-0.5" href="#">Contact</a>
+</nav>
+<!-- Trailing Action / Phone CTA Button -->
+<div class="flex items-center">
+<a class="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full bg-[#FFB300] hover:bg-brand-gold text-[#001D59] font-bold text-sm shadow-md shadow-brand-gold/20 transition-all transform active:scale-95" href="tel:+971547197534"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"></path></svg><span class="">+971 54 719 7534</span></a>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Hero Banner (Clean Light Style) -->
+<section class="relative bg-[#051424] border-b border-slate-800 overflow-hidden py-14 md:py-20 text-white">
+<div class="absolute inset-0 opacity-25 pointer-events-none bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:24px_24px]"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#051424] via-transparent to-transparent opacity-80 pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<!-- Breadcrumb -->
+<div class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-4 tracking-wide uppercase">
+<a class="hover:text-brand-gold transition-colors" href="#">Home</a>
+<span class="text-slate-600">/</span>
+<span class="text-brand-gold">Contact</span>
+</div>
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-gold/20 border border-brand-gold/30 text-brand-gold text-xs font-bold uppercase tracking-wider mb-4">
+<span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+<span class="">24/7 Dispatch Command Center</span>
+</div>
+<h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight uppercase mb-4">
+            Get in Touch with Ultra Miles
+          </h1>
+<p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+            Reach Our Operations Center &amp; Dispatch Team for Bookings, Fleet Leasing, or Enterprise Inquiries across the UAE.
+          </p>
+</div>
+</div>
+</section>
+<!-- Section 1: Contact Information Cards (Bento Grid) -->
+<section class="py-14 bg-[#F4F7FB] border-b border-slate-200/80">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1: Urgent Dispatch -->
+<div class="bg-white border border-slate-200/80 rounded-2xl p-6 relative group hover:shadow-xl hover:border-brand-gold/40 transition-all duration-300 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">phone_in_talk</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-brand-gold/10 text-brand-gold text-[11px] font-bold tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-gold animate-ping"></span>
+<span class="">AVAILABLE 24/7</span>
+</div>
+<h3 class="text-lg font-bold text-brand-navy">Hotline &amp; Urgent Dispatch</h3>
+<p class="text-sm text-slate-600">Immediate roadside dispatch, courier escalation, and live transit assistance.</p>
+</div>
+<div class="mt-6 pt-4 border-t border-slate-200">
+<a class="text-brand-gold font-bold text-base hover:text-brand-gold-hover flex items-center gap-1 transition-colors" href="tel:+971547197534">
+                +971 54 719 7534
+                <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2: Corporate Email -->
+<div class="bg-white border border-slate-200/80 rounded-2xl p-6 relative group hover:shadow-xl hover:border-brand-gold/40 transition-all duration-300 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">mark_email_read</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 text-[11px] font-bold tracking-wider">
+<span class="">CORPORATE INBOX</span>
+</div>
+<h3 class="text-lg font-bold text-brand-navy">Corporate Email</h3>
+<p class="text-sm text-slate-600">Formal contracts, partnership inquiries, and operational invoices.</p>
+</div>
+<div class="mt-6 pt-4 border-t border-slate-200 space-y-1">
+<a class="text-slate-800 font-semibold text-sm hover:text-brand-gold transition-colors block" href="mailto:info@ultramiles.ae">info@ultramiles.ae</a>
+<a class="text-brand-gold font-semibold text-sm hover:text-brand-gold-hover block transition-colors" href="mailto:dispatch@ultramiles.ae">dispatch@ultramiles.ae</a>
+</div>
+</div>
+<!-- Card 3: Operations Location -->
+<div class="bg-white border border-slate-200/80 rounded-2xl p-6 relative group hover:shadow-xl hover:border-brand-gold/40 transition-all duration-300 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">warehouse</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 text-[11px] font-bold tracking-wider">
+<span class="">HEADQUARTERS &amp; HUB</span>
+</div>
+<h3 class="text-lg font-bold text-brand-navy">Operations &amp; Garage</h3>
+<p class="text-sm text-slate-600">Dubai Industrial Area / Al Quoz logistics corridor with full vehicle maintenance bays.</p>
+</div>
+<div class="mt-6 pt-4 border-t border-slate-200">
+<span class="text-slate-700 font-medium text-sm block">Dubai, United Arab Emirates</span>
+</div>
+</div>
+<!-- Card 4: Operational Hours -->
+<div class="bg-white border border-slate-200/80 rounded-2xl p-6 relative group hover:shadow-xl hover:border-brand-gold/40 transition-all duration-300 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">schedule</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-brand-gold/10 text-brand-gold text-[11px] font-bold tracking-wider">
+<span class="">NON-STOP UPTIME</span>
+</div>
+<h3 class="text-lg font-bold text-brand-navy">Operational Hours</h3>
+<p class="text-sm text-slate-600">24/7 Dispatch Control &amp; Continuous On-Road Technical Support across emirates.</p>
+</div>
+<div class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between">
+<span class="text-brand-navy font-bold text-sm">365 Days Active</span>
+<span class="font-mono text-xs font-semibold text-brand-gold bg-brand-gold/10 px-2.5 py-1 rounded-md">00:00 - 24:00</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Interactive Contact / Fleet Quote Inquiry Form (Clean Modern White/Light Container) -->
+<section class="py-16 lg:py-20 bg-white relative border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Contextual Left Rail -->
+<div class="lg:col-span-4 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-gold/10 border border-brand-gold/20 text-brand-gold text-xs font-bold uppercase tracking-wider">
+<span class="">Fleet &amp; Contract Inquiries</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight uppercase leading-tight">
+              Request a Bespoke Courier or Fleet Proposal
+            </h2>
+<p class="text-slate-600 text-base leading-relaxed">
+              Whether you require a dedicated cold-chain last-mile squad, high-frequency e-commerce dispatchers, or corporate bike fleet maintenance, our operations team guarantees custom SLAs within 4 business hours.
+            </p>
+<div class="space-y-4 pt-2">
+<div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/80 shadow-sm">
+<div class="w-10 h-10 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">verified_user</span>
+</div>
+<div>
+<h4 class="font-bold text-brand-navy text-sm">RTA &amp; UAE Compliant</h4>
+<p class="text-xs text-slate-500 mt-0.5">All couriers, bikes, and vans meet national logistics licensing benchmarks.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/80 shadow-sm">
+<div class="w-10 h-10 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">speed</span>
+</div>
+<div>
+<h4 class="font-bold text-brand-navy text-sm">Rapid Deployment</h4>
+<p class="text-xs text-slate-500 mt-0.5">Scale rider capacity from 5 to 200+ units within 48 operational hours.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Form Canvas -->
+<div class="lg:col-span-8 bg-[#F4F7FB] rounded-2xl p-6 sm:p-10 border border-slate-200/80 shadow-xl relative">
+<form class="space-y-6" onsubmit="event.preventDefault(); alert('Inquiry submitted to Ultra Miles Operations Center. A fleet coordinator will contact you shortly.');">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Full Name -->
+<div class="space-y-2">
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Full Name <span class="text-brand-gold">*</span></label>
+<input class="w-full h-12 bg-white border border-slate-200 rounded-xl px-4 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 transition-all" placeholder="Tariq Mansoor" required="" type="text">
+</div>
+<!-- Company Name -->
+<div class="space-y-2">
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Company Name</label>
+<input class="w-full h-12 bg-white border border-slate-200 rounded-xl px-4 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 transition-all" placeholder="Apex Logistics LLC" type="text">
+</div>
+<!-- Work Email -->
+<div class="space-y-2">
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Work Email <span class="text-brand-gold">*</span></label>
+<input class="w-full h-12 bg-white border border-slate-200 rounded-xl px-4 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 transition-all" placeholder="tariq@company.ae" required="" type="email">
+</div>
+<!-- UAE Phone Number -->
+<div class="space-y-2">
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700">UAE Phone Number <span class="text-brand-gold">*</span></label>
+<div class="relative">
+<input class="w-full h-12 bg-white border border-slate-200 rounded-xl px-4 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 transition-all" placeholder="+971 50 123 4567" required="" type="tel">
+</div>
+</div>
+<!-- Inquired Service Dropdown -->
+<div class="space-y-2">
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Inquired Service <span class="text-brand-gold">*</span></label>
+<div class="relative">
+<select class="w-full h-12 bg-white border border-slate-200 rounded-xl px-4 pr-10 text-slate-900 text-sm focus:outline-none focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 transition-all appearance-none cursor-pointer" required="">
+<option disabled="" selected="" value="">Select a primary service category</option>
+<option value="ecommerce">E-commerce delivery</option>
+<option value="food">Food delivery</option>
+<option value="fleet">Custom fleet leasing</option>
+<option value="garage">In-house garage services</option>
+</select>
+<span class="material-symbols-outlined text-slate-400 pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Fleet Size / Volume Estimate -->
+<div class="space-y-2">
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Fleet Size Needed / Volume Estimate</label>
+<input class="w-full h-12 bg-white border border-slate-200 rounded-xl px-4 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 transition-all" placeholder="e.g. 15 Bikes or 500 Daily Drops" type="text">
+</div>
+</div>
+<!-- Detailed Message -->
+<div class="space-y-2">
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Detailed Message</label>
+<textarea class="w-full bg-white border border-slate-200 rounded-xl p-4 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 transition-all" placeholder="Specify your distribution routes, peak shift requirements, or fleet servicing schedules..." rows="4"></textarea>
+</div>
+<!-- Submit Button & Security Note -->
+<div class="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-2 text-xs text-slate-500 font-medium">
+<span class="material-symbols-outlined text-brand-gold text-[18px]">lock</span>
+<span class="">Enterprise Non-Disclosure Guaranteed</span>
+</div>
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-brand-gold hover:bg-brand-gold-hover text-brand-navy font-bold px-8 py-3.5 rounded-full shadow-lg shadow-brand-gold/25 transition-all duration-200 active:scale-95 text-sm" type="submit"><span class="">Send Message / Request Callback</span><span class="material-symbols-outlined text-[18px]">arrow_forward</span></button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Dubai Operational Map with Live Dispatch Stats & Branch Info -->
+<section class="py-16 lg:py-20 bg-[#051424] text-white border-b border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-gold/20 border border-brand-gold/30 text-brand-gold text-xs font-bold uppercase tracking-wider mb-2">
+<span class="">Live Geographic Monitor</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight uppercase">
+              Dubai Central Hub &amp; Network Nodes
+            </h2>
+</div>
+<p class="text-sm text-slate-300 max-w-md">
+            Directly monitoring road corridors across Sheikh Zayed Road, Al Khail Highway, and Emirates Road with instant support dispatches.
+          </p>
+</div>
+<!-- Map Container with Light / Crisp Overlays -->
+<div class="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 min-h-[460px] flex items-center justify-center">
+<!-- Background Styled Map View -->
+<div class="absolute inset-0 bg-cover bg-center filter contrast-105" data-alt="Dark high-contrast futuristic satellite street map view of Dubai metropolitan road network at night with glowing amber arteries and gold digital logistics pathways." data-location="Dubai" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuClIWQDx8SJPdNcrBQ8PN0QFrhhVQmsFvNKcQc_xme0EsQa2D7IPLXOMqGA_bdmFhJaNfS0Wgi_sQ5OmyALuaMzy3obcfSdLrhA9XODTnAb_ia4SRvPnAx2L0Qc4BMb3jMNWgpeYTvcNzEa1-V7Tih9gtf6UqJUFDUe8Lh5f-1vaRGSX7n-z_ZbHwl8dE32Q4IURxgASAi6BuUOtSN4PuyDWeYQF2hvBwVwaNyPe1XWTPdwKqN-Va8')"></div>
+<!-- Ambient Overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-slate-900/40"></div>
+<!-- Interactive Node Badges (Floating on map) -->
+<div class="absolute top-8 left-6 md:left-12 z-10 bg-white/95 backdrop-blur-md border border-slate-200 rounded-xl p-4 shadow-xl max-w-xs hidden sm:block">
+<div class="flex items-center gap-2 text-brand-gold text-[11px] font-bold uppercase tracking-wider mb-1">
+<span class="w-2 h-2 rounded-full bg-brand-gold animate-ping"></span>
+<span class="">Central Command Deployed</span>
+</div>
+<p class="text-brand-navy font-bold text-sm">Al Quoz Operations Center</p>
+<p class="text-slate-500 font-mono text-xs">Lat 25.1328° N, Long 55.2341° E</p>
+</div>
+<div class="absolute bottom-28 right-6 md:right-12 z-10 bg-white/95 backdrop-blur-md border border-slate-200 rounded-xl p-4 shadow-xl max-w-xs hidden sm:block">
+<div class="flex items-center gap-1.5 text-brand-navy text-[11px] font-bold uppercase tracking-wider mb-1">
+<span class="material-symbols-outlined text-[16px] text-brand-gold">local_shipping</span>
+<span class="">Heavy Workshop Active</span>
+</div>
+<p class="text-brand-navy font-bold text-sm">Dubai Industrial City Hub</p>
+<p class="text-slate-500 text-xs">Full Diagnostic &amp; Spare Fleet Yard</p>
+</div>
+<!-- Bottom Live Statistics Dock (Crisp White Glass Card) -->
+<div class="absolute bottom-4 inset-x-4 md:inset-x-8 z-20">
+<div class="bg-white/95 backdrop-blur-md border border-slate-200 rounded-xl p-4 md:p-6 grid grid-cols-2 md:grid-cols-4 gap-4 shadow-2xl">
+<div class="space-y-1">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-500 block">Active Fleet Units</span>
+<div class="flex items-baseline gap-2">
+<span class="text-2xl font-black text-brand-navy">420+</span>
+<span class="text-xs font-bold text-brand-gold bg-brand-gold/10 px-1.5 py-0.5 rounded">+12% peak</span>
+</div>
+</div>
+<div class="space-y-1">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-500 block">Dispatch Response</span>
+<div class="flex items-baseline gap-2">
+<span class="text-2xl font-black text-brand-gold">&lt; 3.2m</span>
+<span class="text-xs font-semibold text-slate-600">Real-time</span>
+</div>
+</div>
+<div class="space-y-1">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-500 block">On-Time Success</span>
+<div class="flex items-baseline gap-2">
+<span class="text-2xl font-black text-brand-navy">99.4%</span>
+<span class="text-xs font-semibold text-slate-600">SLA Metric</span>
+</div>
+</div>
+<div class="space-y-1">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-500 block">Roadside Repair Bays</span>
+<div class="flex items-baseline gap-2">
+<span class="text-2xl font-black text-brand-navy">24 / 7</span>
+<span class="text-xs font-bold text-brand-gold bg-brand-gold/10 px-1.5 py-0.5 rounded">Operational</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Urgent Escalation Callout Banner (Matching Home Page CTA Style) -->
+<section class="relative bg-brand-navy py-14 text-white overflow-hidden border-t border-slate-800" data-purpose="cta-contact-banner">
+<!-- Dubai Skyline Background Overlay -->
+<div class="absolute inset-0 z-0 opacity-25 pointer-events-none">
+<img alt="Skyline Glow" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoEYMYna1KvJyWVfYaDanLyuQ53jatjNKUccDHCHwNyNE7JVcAk69W8NywS8ZS2m8ZqqoVI3024_GVGIvgfViScJWeutd-aQ3D9Z2S8yPvRTHVXlBN9uduY1CMVl9ENvLjT0c06JGxPHMXnpnjCPSWUyFWdScaj52VDJ1QcSfL0CkbEeVzv89RToLfxfoXVt2I22ivQmsHEpYa_XPcoeswRMWW98cwK7xRlTHAnq44xOa5g9mJxBI">
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center justify-between">
+<!-- Left Text Block -->
+<div class="lg:col-span-7 space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-gold/20 border border-brand-gold/30 text-brand-gold text-xs font-bold uppercase tracking-wider">
+<span class="">Urgent Escalation Line</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight uppercase leading-tight text-white">
+            Need an Immediate Dispatch Response?
+          </h2>
+<p class="text-slate-300 text-base max-w-xl">
+            Connect directly with an operational manager on duty. Our dispatch specialists are standing by 24 hours a day across Dubai and the UAE.
+          </p>
+</div>
+<!-- Right Action Buttons -->
+<div class="lg:col-span-5 flex flex-col sm:flex-row items-center lg:justify-end gap-4">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-brand-navy font-bold text-sm shadow-lg shadow-brand-gold/30 transition-all transform active:scale-95" href="tel:+971547197534"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"></path></svg><span class="">+971 54 719 7534</span></a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-white/60 hover:border-white text-white font-semibold text-sm px-6 py-3.5 rounded-full transition-all hover:bg-white/10" href="mailto:dispatch@ultramiles.ae">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+<span class="">Email Dispatch</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- MainFooter (Matching Home Page Footer) -->
+<footer class="bg-[#051424] text-slate-400 py-8 text-xs border-t border-slate-800" data-purpose="site-footer"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6"><a class="flex items-center gap-2.5 group" href="#"><div class="relative flex items-center justify-center w-9 h-9 rounded-full border border-slate-700 bg-slate-900 p-1"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="18.5" cy="17.5" r="3.5"></circle><circle cx="5.5" cy="17.5" r="3.5"></circle><circle cx="15" cy="5" r="1"></circle><path d="M12 17.5V14l-3-3 4-3 2 3h2"></path><path d="M7 6c2.5-1.5 6-1.5 8.5 0" stroke="#FFB300" stroke-width="2.5"></path><path d="M5 8.5c3-2 8-2 11 0" stroke="#FFB300" stroke-width="1.8"></path></svg></div><div class="flex flex-col"><span class="text-sm font-black tracking-tight text-white leading-none">ULTRA MILES</span><span class="text-[8px] font-semibold uppercase tracking-widest text-[#FFB300] mt-0.5">Delivery Services LLC</span></div></a><p class="text-slate-500 text-center sm:text-left">© 2025 Ultra Miles Delivery Services LLC. All Rights Reserved.</p></div><div class="flex items-center gap-4 text-slate-400"><a class="hover:text-brand-gold transition-colors" href="#">Privacy Policy</a><span class="text-slate-700">|</span><a class="hover:text-brand-gold transition-colors" href="#">Terms of Service</a><span class="text-slate-700">|</span><a class="inline-flex items-center gap-1.5 text-[#FFB300] hover:underline font-bold" href="tel:+971547197534"><span class="material-symbols-outlined text-[16px]">call</span><span class="">+971 54 719 7534</span></a></div><div class="flex items-center gap-3"><span class="text-slate-400 font-medium mr-1 hidden sm:inline">Follow Us</span><a aria-label="Facebook" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-brand-gold text-white flex items-center justify-center transition-colors" href="#"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"></path></svg></a><a aria-label="Instagram" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-brand-gold text-white flex items-center justify-center transition-colors" href="#"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a><a aria-label="LinkedIn" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-brand-gold text-white flex items-center justify-center transition-colors" href="#"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg></a><a aria-label="YouTube" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-brand-gold text-white flex items-center justify-center transition-colors" href="#"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a></div></div></footer>
+
+
+
+
+</body></html>

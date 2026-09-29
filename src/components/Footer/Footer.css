@@ -1,0 +1,9 @@
+/* Footer-specific styles (Phase 3: migrated out of inline styles) */
+
+/* Footer background/border — previously applied via inline
+   style="background-color: rgb(5, 20, 36); border-color: rgba(255,255,255,0.08);"
+   on the index.html footer */
+.site-footer {
+  background-color: rgb(5, 20, 36);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}

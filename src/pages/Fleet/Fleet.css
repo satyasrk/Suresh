@@ -1,0 +1,17 @@
+/* Fleet page styles — fleet.html used its own brand palette
+   (gold #FFB300 / navy #003087), carried by the "fleet-*" Tailwind colors. */
+
+/* Hero: bg-brand-dark bg-[#001D59] */
+.fleet-hero {
+  background-color: #001d59;
+}
+
+/* Garage section: bg-[#001D59] */
+.fleet-garage {
+  background-color: #001d59;
+}
+
+/* CTA banner container: bg-brand-navy (#003087) */
+.fleet-cta {
+  background-color: #003087;
+}

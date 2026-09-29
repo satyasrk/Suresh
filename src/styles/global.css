@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Shared custom classes migrated from legacy internal <style> blocks ---- */
+
+/* Material Symbols Outlined (used by aboutUs / fleet / services / partners / contact pages) */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+/* Cursive script accent (index / aboutUs / services / contact) */
+.font-script {
+  font-family: 'Caveat', cursive;
+}
+
+/* Hero gradient overlay (index / aboutUs) */
+.hero-gradient-overlay {
+  background: linear-gradient(90deg, rgba(8, 22, 38, 0.94) 0%, rgba(12, 32, 56, 0.85) 45%, rgba(12, 32, 56, 0.4) 100%);
+}
+
+/* Skyline glow (index, legacy asset) */
+.skyline-glow {
+  background-image: radial-gradient(circle at center, rgba(217, 130, 43, 0.25) 0%, rgba(12, 32, 56, 0) 70%);
+}
+
+/* Skyline overlay (contactUs) */
+.skyline-overlay {
+  background: linear-gradient(90deg, rgba(8, 22, 38, 0.95) 0%, rgba(12, 32, 56, 0.88) 50%, rgba(12, 32, 56, 0.7) 100%);
+}
+
+/* Light hero gradient (ourServices) */
+.hero-light-gradient {
+  background: radial-gradient(circle at 85% 20%, rgba(217, 130, 43, 0.08) 0%, transparent 60%),
+    linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+}
+
+/* Dotted hero background (partners) */
+.hero-dots {
+  background-image: radial-gradient(rgba(0, 48, 135, 0.08) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}

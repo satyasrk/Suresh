@@ -1,0 +1,11 @@
+/* Header-specific styles (Phase 3: migrated out of inline styles) */
+
+/* Phone CTA button — colors previously applied via inline
+   style="background-color:#FFB300;color:#FFFFFF" on index.html */
+.header-phone-cta {
+  background-color: #ffb300;
+  color: #ffffff;
+}
+.header-phone-cta:hover {
+  background-color: #feb300;
+}

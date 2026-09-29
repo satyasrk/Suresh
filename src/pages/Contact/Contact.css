@@ -1,0 +1,29 @@
+/* Contact page styles — migrated from contactUs.html */
+
+/* Hero: bg-[#051424] */
+.contact-hero {
+  background-color: #051424;
+}
+
+/* Dotted pattern: bg-[radial-gradient(#38bdf8_1px,transparent_1px)] with 24px grid */
+.contact-hero-dots {
+  background-image: radial-gradient(#38bdf8 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Map section: bg-[#051424] */
+.contact-map-section {
+  background-color: #051424;
+}
+
+/* Map background image — migrated from inline
+   style="background-image: url('https://lh3.googleusercontent.com/...')"
+   on contactUs.html */
+.contact-map-bg {
+  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuClIWQDx8SJPdNcrBQ8PN0QFrhhVQmsFvNKcQc_xme0EsQa2D7IPLXOMqGA_bdmFhJaNfS0Wgi_sQ5OmyALuaMzy3obcfSdLrhA9XODTnAb_ia4SRvPnAx2L0Qc4BMb3jMNWgpeYTvcNzEa1-V7Tih9gtf6UqJUFDUe8Lh5f-1vaRGSX7n-z_ZbHwl8dE32Q4IURxgASAi6BuUOtSN4PuyDWeYQF2hvBwVwaNyPe1XWTPdwKqN-Va8');
+}
+
+/* Escalation banner: bg-brand-navy */
+.contact-cta {
+  background-color: #0c2038;
+}

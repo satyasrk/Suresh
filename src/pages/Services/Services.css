@@ -1,0 +1,49 @@
+/* Services page styles — migrated from ourServices.html */
+
+/* Hero: bg-brand-navy with gradient overlay over image */
+.services-hero {
+  background-color: #0c2038;
+}
+.services-hero-overlay {
+  background: linear-gradient(to right, #071526, rgba(12, 32, 56, 0.95), rgba(12, 32, 56, 0.7));
+}
+
+/* Floating hero card: bg-brand-navy-dark/90 */
+.services-hero-card {
+  background-color: rgba(7, 21, 38, 0.9);
+}
+
+/* Pipeline section: bg-brand-navy */
+.services-pipeline {
+  background-color: #0c2038;
+}
+
+/* Pipeline step cards: bg-brand-navy-dark/90 */
+.services-step-card {
+  background-color: rgba(7, 21, 38, 0.9);
+}
+
+/* Corporate form panel: bg-brand-navy */
+.services-form-panel {
+  background-color: #0c2038;
+}
+
+/* Form inputs: bg-brand-navy-dark with gold focus ring
+   (migrated from Tailwind classes bg-brand-navy-dark focus:border-brand-gold
+   focus:ring-1 focus:ring-brand-gold) */
+.services-form-input {
+  background-color: #071526;
+}
+.services-form-input:focus {
+  border-color: #d9822b;
+  box-shadow: 0 0 0 1px #d9822b;
+}
+.services-form-input::placeholder {
+  color: #94a3b8;
+}
+
+/* Select options need explicit background on some browsers */
+.services-form-option {
+  background-color: #071526;
+  color: #ffffff;
+}

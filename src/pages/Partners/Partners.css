@@ -1,0 +1,17 @@
+/* Partners page styles — partners.html used its own palette
+   (navy #001d59 / gold #feb300), carried by the "partners-*" Tailwind colors. */
+
+/* Hero: bg-brand-navy (#001d59) */
+.partners-hero {
+  background-color: #001d59;
+}
+
+/* Capabilities section: bg-brand-dark (#051838) */
+.partners-capabilities {
+  background-color: #051838;
+}
+
+/* Filled icons: style="font-variation-settings: 'FILL' 1;" migrated */
+.partner-icon-filled {
+  font-variation-settings: 'FILL' 1;
+}
