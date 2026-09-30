@@ -1,19 +1,13 @@
 /* Contact page styles — migrated from contactUs.html */
 
-/* Hero: bg-[#051424] */
+/* Hero: bg-[#051424] → unified to the approved hero navy */
 .contact-hero {
-  background-color: #051424;
+  background-color: #0c2038;
 }
 
-/* Dotted pattern: bg-[radial-gradient(#38bdf8_1px,transparent_1px)] with 24px grid */
-.contact-hero-dots {
-  background-image: radial-gradient(#38bdf8 1px, transparent 1px);
-  background-size: 24px 24px;
-}
-
-/* Map section: bg-[#051424] */
+/* Map section: bg-[#051424] → unified to the approved hero navy */
 .contact-map-section {
-  background-color: #051424;
+  background-color: #0c2038;
 }
 
 /* Map background image — migrated from inline

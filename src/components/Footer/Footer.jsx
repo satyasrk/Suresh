@@ -39,30 +39,30 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-800">
           <Link className="flex items-center gap-3" to="/">
-            <div className="relative flex items-center justify-center w-10 h-10 rounded-full border-2 border-[#FFB300] p-1 bg-white/5">
+            <div className="relative flex items-center justify-center w-10 h-10 rounded-full border-2 border-brand-gold p-1 bg-white/5">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
                 <circle cx="18.5" cy="17.5" r="3.5"></circle>
                 <circle cx="5.5" cy="17.5" r="3.5"></circle>
                 <circle cx="15" cy="5" r="1"></circle>
                 <path d="M12 17.5V14l-3-3 4-3 2 3h2"></path>
-                <path d="M7 6c2.5-1.5 6-1.5 8.5 0" stroke="#FFB300" strokeWidth="2.5"></path>
-                <path d="M5 8.5c3-2 8-2 11 0" stroke="#FFB300" strokeWidth="1.8"></path>
+                <path d="M7 6c2.5-1.5 6-1.5 8.5 0" stroke="#D9822B" strokeWidth="2.5"></path>
+                <path d="M5 8.5c3-2 8-2 11 0" stroke="#D9822B" strokeWidth="1.8"></path>
               </svg>
             </div>
             <div className="flex flex-col text-left">
               <span className="text-lg font-black tracking-tight text-white leading-none">ULTRA MILES</span>
-              <span className="text-[9px] font-bold uppercase tracking-widest text-[#FFB300] mt-1">DELIVERY SERVICES LLC</span>
+              <span className="text-[9px] font-bold uppercase tracking-widest text-brand-gold mt-1">DELIVERY SERVICES LLC</span>
             </div>
           </Link>
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-slate-300 font-medium">
             {FOOTER_LINKS.map((link) =>
               link.to ? (
-                <Link key={link.label} className="hover:text-[#FFB300] transition-colors" to={link.to}>
+                <Link key={link.label} className="hover:text-brand-gold transition-colors" to={link.to}>
                   {link.label}
                 </Link>
               ) : (
-                <a key={link.label} className="hover:text-[#FFB300] transition-colors" href="#">
+                <a key={link.label} className="hover:text-brand-gold transition-colors" href="#">
                   {link.label}
                 </a>
               ),
@@ -75,7 +75,7 @@ export default function Footer() {
               <a
                 key={social.label}
                 aria-label={social.label}
-                className="w-8 h-8 rounded-full bg-slate-800 hover:bg-[#FFB300] text-white flex items-center justify-center transition-colors"
+                className="w-8 h-8 rounded-full bg-slate-800 hover:bg-brand-gold text-white flex items-center justify-center transition-colors"
                 href="#"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">

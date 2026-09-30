@@ -2,17 +2,17 @@
 
 /* About hero: bg-[#001D59] */
 .about-hero {
-  background-color: #001d59;
+  background-color: #0c2038;
 }
 
-/* Stats / Why section: bg-[#001D59] */
+/* Stats / Why section: bg-[#001D59] → unified to the approved hero navy */
 .about-stats-section {
-  background-color: #001d59;
+  background-color: #0c2038;
 }
 
-/* Why Ultra Miles cards: bg-[#002B7A]/60 */
+/* Why Ultra Miles cards: bg-[#002B7A]/60 → unified to the approved navy */
 .about-why-card {
-  background-color: rgba(0, 43, 122, 0.6);
+  background-color: rgba(12, 32, 56, 0.6);
 }
 
 /* CTA banner: bg-[#003087] */

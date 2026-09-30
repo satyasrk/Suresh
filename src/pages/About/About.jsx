@@ -233,7 +233,7 @@ export default function About() {
             </div>
             <div className="lg:col-span-5 flex flex-col sm:flex-row items-start sm:items-center lg:justify-end gap-4">
               <a
-                className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-brand-navy text-sm font-bold shadow-lg shadow-brand-gold/20 transition-all transform active:scale-95"
+                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-white text-sm font-bold shadow-lg shadow-brand-gold/30 transition-all transform active:scale-95"
                 href="tel:+971547788501"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">

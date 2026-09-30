@@ -131,7 +131,7 @@ export default function Home() {
               </p>
               <div className="pt-2 flex flex-wrap items-center gap-4">
                 <a
-                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-white font-semibold text-sm transition-all shadow-lg shadow-brand-gold/30"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-white font-bold text-sm transition-all shadow-lg shadow-brand-gold/30"
                   href="#contact"
                 >
                   <span>Partner With Us</span>

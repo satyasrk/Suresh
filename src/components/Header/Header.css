@@ -1,11 +1,11 @@
 /* Header-specific styles (Phase 3: migrated out of inline styles) */
 
-/* Phone CTA button — colors previously applied via inline
-   style="background-color:#FFB300;color:#FFFFFF" on index.html */
+/* Phone CTA button — unified to the approved brand gold (#D9822B),
+   replacing the legacy bright yellow #FFB300 / #FEB300 used on index.html. */
 .header-phone-cta {
-  background-color: #ffb300;
+  background-color: #d9822b;
   color: #ffffff;
 }
 .header-phone-cta:hover {
-  background-color: #feb300;
+  background-color: #c07122;
 }

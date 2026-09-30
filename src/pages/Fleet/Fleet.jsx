@@ -34,22 +34,22 @@ export default function Fleet() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-slate-300 mb-6 font-mono" aria-label="Breadcrumb">
-            <Link className="hover:text-fleet-gold transition-colors" to="/">HOME</Link>
+            <Link className="hover:text-brand-gold transition-colors" to="/">HOME</Link>
             <span className="text-slate-400">/</span>
-            <span className="text-fleet-gold">OUR FLEET</span>
+            <span className="text-brand-gold">OUR FLEET</span>
           </nav>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7 flex flex-col gap-6">
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 w-fit px-3.5 py-1.5 rounded-full bg-fleet-gold/15 border border-fleet-gold/40 text-fleet-gold text-xs font-bold uppercase tracking-wider">
-                <span className="w-2 h-2 rounded-full bg-fleet-gold animate-pulse"></span>
-                • FLEET CAPABILITY
+              <div className="inline-flex items-center gap-2 w-fit px-3.5 py-1.5 rounded-full bg-brand-gold/15 border border-brand-gold/40 text-brand-gold text-xs font-bold uppercase tracking-wider">
+                <span className="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+                 FLEET CAPABILITY
               </div>
               {/* Main Heading */}
               <div className="flex flex-col gap-2">
-                <span className="text-sm font-black uppercase tracking-[0.2em] text-fleet-gold">OUR FLEET</span>
+                <span className="text-sm font-black uppercase tracking-[0.2em] text-brand-gold">OUR FLEET</span>
                 <h1 className="text-3xl sm:text-5xl lg:text-5xl font-black text-white tracking-tight uppercase leading-[1.15]">
-                  <span className="text-fleet-gold">200+ OWNED VEHICLES.</span>
+                  <span className="text-brand-gold">200+ OWNED VEHICLES.</span>
                   <br />
                   BUILT FOR THE LAST MILE.
                 </h1>
@@ -68,17 +68,17 @@ export default function Fleet() {
               </div>
               <div className="flex flex-wrap items-center gap-4 pt-2">
                 <a
-                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-fleet-gold hover:bg-fleet-gold-hover text-fleet-navy font-bold text-sm transition-all shadow-lg shadow-fleet-gold/25 active:scale-95"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-white font-bold text-sm transition-all shadow-lg shadow-brand-gold/30 active:scale-95"
                   href="#garage"
                 >
                   <span>Explore In-House Garage</span>
                   <span className="material-symbols-outlined text-sm font-bold" aria-hidden="true">arrow_downward</span>
                 </a>
                 <a
-                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-white/10 border border-white/20 text-white font-semibold text-sm hover:border-fleet-gold hover:text-fleet-gold transition-all"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full border border-white/60 text-white font-semibold text-sm hover:border-white hover:bg-white/10 transition-all"
                   href="#fleet-management"
                 >
-                  <span className="material-symbols-outlined text-base text-fleet-gold" aria-hidden="true">alt_route</span>
+                  <span className="material-symbols-outlined text-base text-brand-gold" aria-hidden="true">alt_route</span>
                   <span>Fleet Management</span>
                 </a>
               </div>
@@ -90,12 +90,12 @@ export default function Fleet() {
                   className="w-full h-80 md:h-[420px] object-cover rounded-xl"
                   src={HERO_IMG}
                 />
-                <div className="absolute bottom-5 left-5 right-5 p-4 rounded-xl bg-fleet-navy-deep/95 backdrop-blur-md border border-white/20 flex items-center justify-between text-white shadow-lg">
+                <div className="absolute bottom-5 left-5 right-5 p-4 rounded-xl bg-brand-navy-dark/95 backdrop-blur-md border border-white/20 flex items-center justify-between text-white shadow-lg">
                   <div>
                     <p className="font-mono text-[11px] uppercase tracking-wider text-slate-300">Fleet Operations</p>
-                    <p className="text-xl sm:text-2xl font-black text-fleet-gold">200+ Owned Vehicles</p>
+                    <p className="text-xl sm:text-2xl font-black text-brand-gold">200+ Owned Vehicles</p>
                   </div>
-                  <span className="px-3 py-1 rounded-full bg-fleet-gold text-fleet-navy text-[11px] font-black uppercase tracking-wider">Active Units</span>
+                  <span className="px-3 py-1 rounded-full bg-brand-gold text-brand-navy text-[11px] font-black uppercase tracking-wider">Active Units</span>
                 </div>
               </div>
             </div>
@@ -108,15 +108,15 @@ export default function Fleet() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {STATS.map((stat) => (
-              <div key={stat.label} className="p-6 rounded-2xl bg-[#F8FAFC] border border-slate-200 flex flex-col justify-between hover:shadow-md hover:border-fleet-gold/60 transition-all">
-                <div className="mb-3 text-fleet-navy">
+              <div key={stat.label} className="p-6 rounded-2xl bg-[#F8FAFC] border border-slate-200 flex flex-col justify-between hover:shadow-md hover:border-brand-gold/60 transition-all">
+                <div className="mb-3 text-brand-navy">
                   <span className="material-symbols-outlined text-3xl" aria-hidden="true">{stat.icon}</span>
                 </div>
                 <div>
-                  <div className="text-3xl sm:text-4xl font-black text-fleet-navy tracking-tight">{stat.value}</div>
+                  <div className="text-3xl sm:text-4xl font-black text-brand-navy tracking-tight">{stat.value}</div>
                   <p className="text-base text-slate-700 font-bold mt-1">{stat.label}</p>
                 </div>
-                <div className="mt-4 pt-3 border-t border-slate-200 text-[11px] font-bold tracking-wider text-fleet-navy uppercase">{stat.footer}</div>
+                <div className="mt-4 pt-3 border-t border-slate-200 text-[11px] font-bold tracking-wider text-brand-navy uppercase">{stat.footer}</div>
               </div>
             ))}
           </div>
@@ -124,17 +124,17 @@ export default function Fleet() {
       </section>
 
       {/* Section 2 - OUR OWN GARAGE */}
-      <section className="py-16 lg:py-24 fleet-garage text-white border-y border-fleet-navy-dark" id="garage">
+      <section className="py-16 lg:py-24 fleet-garage text-white border-y border-brand-navy-dark" id="garage">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 flex flex-col gap-6">
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 w-fit px-3.5 py-1.5 rounded-full bg-fleet-gold/15 border border-fleet-gold/30 text-fleet-gold text-xs font-bold uppercase tracking-wider">
-                <span className="w-2 h-2 rounded-full bg-fleet-gold"></span>
+              <div className="inline-flex items-center gap-2 w-fit px-3.5 py-1.5 rounded-full bg-brand-gold/15 border border-brand-gold/30 text-brand-gold text-xs font-bold uppercase tracking-wider">
+                <span className="w-2 h-2 rounded-full bg-brand-gold"></span>
                 • IN-HOUSE INFRASTRUCTURE
               </div>
               <div>
-                <span className="text-xs uppercase font-bold tracking-widest text-fleet-gold block mb-1">OUR OWN GARAGE</span>
+                <span className="text-xs uppercase font-bold tracking-widest text-brand-gold block mb-1">OUR OWN GARAGE</span>
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight uppercase leading-tight">Keeping Our Fleet Moving</h2>
               </div>
               {/* Text Verbatim */}
@@ -149,14 +149,14 @@ export default function Fleet() {
               </div>
               <div className="grid grid-cols-2 gap-4 pt-2">
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <div className="flex items-center gap-2 mb-1 text-fleet-gold font-bold text-sm uppercase">
+                  <div className="flex items-center gap-2 mb-1 text-brand-gold font-bold text-sm uppercase">
                     <span className="material-symbols-outlined text-base" aria-hidden="true">build</span>
                     Dedicated Facility
                   </div>
                   <p className="text-xs text-slate-300">Continuous in-house mechanical inspections &amp; servicing.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <div className="flex items-center gap-2 mb-1 text-fleet-gold font-bold text-sm uppercase">
+                  <div className="flex items-center gap-2 mb-1 text-brand-gold font-bold text-sm uppercase">
                     <span className="material-symbols-outlined text-base" aria-hidden="true">timelapse</span>
                     Active Uptime
                   </div>
@@ -169,13 +169,13 @@ export default function Fleet() {
               <div className="rounded-2xl overflow-hidden border border-white/20 bg-slate-900 shadow-2xl">
                 <img alt="Commercial delivery motorcycles garage workshop in Dubai" className="w-full h-[440px] object-cover" src={GARAGE_WORKSHOP_IMG} />
               </div>
-              <div className="absolute -bottom-5 sm:-left-6 left-4 right-4 sm:right-auto flex items-center gap-3.5 p-4 rounded-2xl bg-fleet-navy border border-fleet-gold/40 shadow-xl">
-                <div className="w-12 h-12 rounded-full bg-fleet-gold text-fleet-navy flex items-center justify-center shrink-0">
+              <div className="absolute -bottom-5 sm:-left-6 left-4 right-4 sm:right-auto flex items-center gap-3.5 p-4 rounded-2xl bg-brand-navy border border-brand-gold/40 shadow-xl">
+                <div className="w-12 h-12 rounded-full bg-brand-gold text-brand-navy flex items-center justify-center shrink-0">
                   <span className="material-symbols-outlined text-2xl font-bold" aria-hidden="true">home_repair_service</span>
                 </div>
                 <div>
                   <div className="font-bold text-white text-sm sm:text-base">Ultra Miles Dedicated Garage</div>
-                  <p className="text-xs text-fleet-gold font-medium">In-House Maintenance &amp; Fleet Care</p>
+                  <p className="text-xs text-brand-gold font-medium">In-House Maintenance &amp; Fleet Care</p>
                 </div>
               </div>
             </div>
@@ -188,38 +188,38 @@ export default function Fleet() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-12">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 w-fit px-3.5 py-1.5 rounded-full bg-fleet-gold/15 border border-fleet-gold/30 text-fleet-navy text-xs font-bold uppercase tracking-wider mb-4">
-              <span className="w-2 h-2 rounded-full bg-fleet-navy"></span>
+            <div className="inline-flex items-center gap-2 w-fit px-3.5 py-1.5 rounded-full bg-brand-gold/15 border border-brand-gold/30 text-brand-navy text-xs font-bold uppercase tracking-wider mb-4">
+              <span className="w-2 h-2 rounded-full bg-brand-navy"></span>
               • STRUCTURED OPERATIONS
             </div>
-            <span className="text-xs uppercase font-bold tracking-widest text-fleet-navy block mb-1">FLEET MANAGEMENT</span>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-fleet-navy tracking-tight">Our approach to fleet management focuses on:</h2>
+            <span className="text-xs uppercase font-bold tracking-widest text-brand-navy block mb-1">FLEET MANAGEMENT</span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-brand-navy tracking-tight">Our approach to fleet management focuses on:</h2>
           </div>
           {/* 8 Focus Area Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {FOCUS_AREAS.map((area) => (
-              <div key={area.num} className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm hover:border-fleet-gold hover:shadow-md transition-all flex flex-col justify-between group">
+              <div key={area.num} className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm hover:border-brand-gold hover:shadow-md transition-all flex flex-col justify-between group">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-fleet-navy/5 text-fleet-navy flex items-center justify-center mb-4 group-hover:bg-fleet-gold group-hover:text-fleet-navy transition-colors">
+                  <div className="w-12 h-12 rounded-xl bg-brand-navy/5 text-brand-navy flex items-center justify-center mb-4 group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
                     <span className="material-symbols-outlined text-2xl" aria-hidden="true">{area.icon}</span>
                   </div>
-                  <span className="text-xs font-mono font-bold text-fleet-navy/60 uppercase">{area.num}</span>
-                  <h3 className="text-lg font-bold text-fleet-navy mt-1">{area.title}</h3>
+                  <span className="text-xs font-mono font-bold text-brand-navy/60 uppercase">{area.num}</span>
+                  <h3 className="text-lg font-bold text-brand-navy mt-1">{area.title}</h3>
                 </div>
                 <div className="mt-4 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-xs text-slate-500">
-                  <span className="w-1.5 h-1.5 rounded-full bg-fleet-gold"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
                   {area.note}
                 </div>
               </div>
             ))}
           </div>
           {/* Highlight Banner / Tagline */}
-          <div className="mt-14 p-8 sm:p-10 rounded-2xl bg-white border-2 border-fleet-gold/30 shadow-md text-center max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
-            <div className="w-12 h-12 rounded-full bg-fleet-gold text-fleet-navy flex items-center justify-center shrink-0">
+          <div className="mt-14 p-8 sm:p-10 rounded-2xl bg-white border-2 border-brand-gold/30 shadow-md text-center max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+            <div className="w-12 h-12 rounded-full bg-brand-gold text-brand-navy flex items-center justify-center shrink-0">
               <span className="material-symbols-outlined text-2xl font-bold" aria-hidden="true">stars</span>
             </div>
-            <p className="text-xl sm:text-2xl md:text-3xl font-black text-fleet-navy tracking-tight">
-              More vehicles. <span className="text-fleet-gold">More control.</span> More delivery capacity.
+            <p className="text-xl sm:text-2xl md:text-3xl font-black text-brand-navy tracking-tight">
+              More vehicles. <span className="text-brand-gold">More control.</span> More delivery capacity.
             </p>
           </div>
         </div>
@@ -234,7 +234,7 @@ export default function Fleet() {
               <img alt="Skyline Glow" className="w-full h-full object-cover" src={SKYLINE_GLOW_IMG} />
             </div>
             <div className="relative z-10 max-w-3xl">
-              <span className="text-xs uppercase font-bold tracking-widest text-fleet-gold block mb-2 font-mono">Scale Your Delivery Logistics</span>
+              <span className="text-xs uppercase font-bold tracking-widest text-brand-gold block mb-2 font-mono">Scale Your Delivery Logistics</span>
               <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight uppercase leading-tight mb-4">Ready to Deploy Our Fleet for Your Business?</h2>
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed mb-8">
                 Partner with Dubai's most dependable fleet. Whether you need a dedicated corporate fleet of 5 or 50+ delivery bikes with rider management and automated
@@ -242,7 +242,7 @@ export default function Fleet() {
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
-                  className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full bg-fleet-gold hover:bg-fleet-gold-hover text-fleet-navy text-sm font-bold shadow-lg shadow-fleet-gold/25 transition-all active:scale-95"
+                  className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-white text-sm font-bold shadow-lg shadow-brand-gold/30 transition-all active:scale-95"
                   href="tel:+971547788501"
                 >
                   <span className="material-symbols-outlined text-base" aria-hidden="true">call</span>

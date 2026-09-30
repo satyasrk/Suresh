@@ -5,7 +5,7 @@ import './Header.css'
 const NAV_ITEMS = [
   { label: 'Home', to: '/' },
   { label: 'About Us', to: '/about-us' },
-  { label: 'Our Services', to: '/our-services ' },
+  { label: 'Our Services', to: '/our-services' },
   // { label: 'Partners', to: '/partners' },
   // { label: 'Our Fleet', to: '/fleet' },
   // { label: 'Contact', to: '/contact-us' },
@@ -37,13 +37,13 @@ export default function Header() {
               <circle cx="5.5" cy="17.5" r="3.5"></circle>
               <circle cx="15" cy="5" r="1"></circle>
               <path d="M12 17.5V14l-3-3 4-3 2 3h2"></path>
-              <path d="M7 6c2.5-1.5 6-1.5 8.5 0" stroke="#FFB300" strokeWidth="2.5"></path>
-              <path d="M5 8.5c3-2 8-2 11 0" stroke="#FFB300" strokeWidth="1.8"></path>
+              <path d="M7 6c2.5-1.5 6-1.5 8.5 0" stroke="#D9822B" strokeWidth="2.5"></path>
+              <path d="M5 8.5c3-2 8-2 11 0" stroke="#D9822B" strokeWidth="1.8"></path>
             </svg>
           </div>
           <div className="flex flex-col">
             <span className="text-xl font-black tracking-tight text-[#003087] leading-none">ULTRA MILES</span>
-            <span className="text-[9px] font-bold uppercase tracking-widest text-[#FFB300] mt-1">DELIVERY SERVICES LLC</span>
+            <span className="text-[9px] font-bold uppercase tracking-widest text-brand-gold mt-1">DELIVERY SERVICES LLC</span>
           </div>
         </Link>
 
@@ -56,7 +56,7 @@ export default function Header() {
               end={item.to === '/'}
               className={({ isActive }) =>
                 isActive
-                  ? 'header-nav-link relative text-[#003087] font-bold py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-[#FFB300]'
+                  ? 'header-nav-link relative text-[#003087] font-bold py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-brand-gold'
                   : 'header-nav-link hover:text-[#D9822B] transition-colors py-1'
               }
             >

@@ -9,7 +9,7 @@ const PARTNERS = [
     box: 'bg-amber-50 border-amber-200',
     badge: 'Fulfilment',
     badgeColor: 'bg-amber-50 border-amber-200 text-brand-navy',
-    hover: 'hover:border-partners-gold/80',
+    hover: 'hover:border-brand-gold/80',
     text: 'Middle-mile clearance & high-volume prime same-day doorstep parcel fulfillment across key UAE sectors.',
   },
   {
@@ -29,7 +29,7 @@ const PARTNERS = [
     box: 'bg-amber-50 border-amber-200',
     badge: 'Quick-Commerce',
     badgeColor: 'bg-amber-50 border-amber-200 text-brand-navy',
-    hover: 'hover:border-partners-gold/80',
+    hover: 'hover:border-brand-gold/80',
     text: 'Dedicated rapid-dispatch motorcycle fleet powering hyper-local Noon Minutes and e-commerce distribution.',
   },
   {
@@ -79,7 +79,7 @@ const PARTNERS = [
     box: 'bg-amber-50 border-amber-200',
     badge: 'Rapid Fleet',
     badgeColor: 'bg-amber-50 border-amber-200 text-brand-navy',
-    hover: 'hover:border-partners-gold/80',
+    hover: 'hover:border-brand-gold/80',
     text: 'Elastic expansion capacity deploying vetted motorcycle riders across rapidly emerging delivery sectors.',
   },
 ]
@@ -102,21 +102,21 @@ export default function Partners() {
       {/* Hero Section */}
       <section className="relative pt-12 pb-16 md:pt-16 md:pb-24 partners-hero text-white border-b border-white/10 overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-partners-blue/20 rounded-full blur-3xl pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-partners-gold/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-gold/10 rounded-full blur-3xl pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <nav className="flex items-center gap-2 mb-6 text-xs font-mono text-slate-300 uppercase tracking-wider" aria-label="Breadcrumb">
-            <Link className="hover:text-partners-gold transition-colors" to="/">HOME</Link>
+            <Link className="hover:text-brand-gold transition-colors" to="/">HOME</Link>
             <span>/</span>
-            <span className="text-partners-gold font-bold">PARTNERS</span>
+            <span className="text-brand-gold font-bold">PARTNERS</span>
           </nav>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-partners-gold/30 mb-5">
-                <span className="w-2 h-2 rounded-full bg-partners-gold animate-pulse"></span>
-                <span className="text-partners-gold font-mono text-xs uppercase tracking-widest font-bold">• OUR PARTNERS</span>
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-brand-gold/30 mb-5">
+                <span className="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+                <span className="text-brand-gold font-mono text-xs uppercase tracking-widest font-bold">OUR PARTNERS</span>
               </div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-headline text-white tracking-tight leading-tight mb-5">
-                OUR PARTNERS <span className="text-partners-gold">— Trusted by Leading Platforms</span>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black font-headline text-white tracking-tight leading-tight mb-5">
+                OUR PARTNERS <span className="text-brand-gold">— Trusted by Leading Platforms</span>
               </h1>
               <p className="text-base sm:text-lg text-slate-200 leading-relaxed mb-8 max-w-2xl">
                 Our delivery capabilities have enabled us to establish partnerships and work with some of the UAE's leading e-commerce, delivery, retail, and technology
@@ -124,14 +124,14 @@ export default function Partners() {
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
-                  className="inline-flex items-center gap-2 bg-partners-gold hover:bg-partners-goldLight text-partners-navy font-bold px-6 py-3.5 rounded-full text-xs font-mono tracking-wider shadow-lg hover:scale-[1.02] active:scale-95 transition-all"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-white font-bold text-sm shadow-lg shadow-brand-gold/30 transition-all active:scale-95"
                   href="#partner-form"
                 >
                   <span className="material-symbols-outlined text-base" aria-hidden="true">handshake</span>
                   <span>Partner With Us</span>
                 </a>
                 <Link
-                  className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold px-6 py-3.5 rounded-full text-xs font-mono tracking-wider transition-all"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full border border-white/60 hover:border-white text-white font-semibold text-sm transition-all hover:bg-white/10"
                   to="/fleet"
                 >
                   <span className="material-symbols-outlined text-base" aria-hidden="true">local_shipping</span>
@@ -143,30 +143,30 @@ export default function Partners() {
               <div className="bg-white/10 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8 shadow-xl relative">
                 <div className="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
                   <span className="text-xs font-mono font-bold text-slate-300 uppercase tracking-wider">Operational Reliability Index</span>
-                  <span className="flex items-center gap-1.5 text-xs font-mono font-bold text-partners-gold uppercase">
-                    <span className="w-2 h-2 rounded-full bg-partners-gold animate-pulse"></span> Active Fleets
+                  <span className="flex items-center gap-1.5 text-xs font-mono font-bold text-brand-gold uppercase">
+                    <span className="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span> Active Fleets
                   </span>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-partners-dark/70 rounded-2xl p-4 border border-white/10">
-                    <div className="font-headline text-2xl sm:text-3xl font-bold text-partners-gold">8+</div>
+                  <div className="bg-brand-navy-dark/70 rounded-2xl p-4 border border-white/10">
+                    <div className="font-headline text-2xl sm:text-3xl font-bold text-brand-gold">8+</div>
                     <div className="text-xs text-slate-300 mt-1">Tier-1 Platforms</div>
                   </div>
-                  <div className="bg-partners-dark/70 rounded-2xl p-4 border border-white/10">
+                  <div className="bg-brand-navy-dark/70 rounded-2xl p-4 border border-white/10">
                     <div className="font-headline text-2xl sm:text-3xl font-bold text-white">99.8%</div>
                     <div className="text-xs text-slate-300 mt-1">On-Time SLA</div>
                   </div>
-                  <div className="bg-partners-dark/70 rounded-2xl p-4 border border-white/10">
+                  <div className="bg-brand-navy-dark/70 rounded-2xl p-4 border border-white/10">
                     <div className="font-headline text-2xl sm:text-3xl font-bold text-white">200+</div>
                     <div className="text-xs text-slate-300 mt-1">Owned Vehicles</div>
                   </div>
-                  <div className="bg-partners-dark/70 rounded-2xl p-4 border border-white/10">
-                    <div className="font-headline text-2xl sm:text-3xl font-bold text-partners-gold">7/7</div>
+                  <div className="bg-brand-navy-dark/70 rounded-2xl p-4 border border-white/10">
+                    <div className="font-headline text-2xl sm:text-3xl font-bold text-brand-gold">7/7</div>
                     <div className="text-xs text-slate-300 mt-1">Emirates Coverage</div>
                   </div>
                 </div>
                 <div className="mt-6 pt-4 border-t border-white/10 flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-partners-gold/20 flex items-center justify-center text-partners-gold shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-brand-gold/20 flex items-center justify-center text-brand-gold shrink-0">
                     <span className="material-symbols-outlined text-xl" aria-hidden="true">verified</span>
                   </div>
                   <div className="text-xs text-slate-200 leading-snug">
@@ -184,7 +184,7 @@ export default function Partners() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <div className="text-xs font-bold font-mono tracking-widest text-partners-blue uppercase mb-2">Enterprise Alliances</div>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-headline text-partners-navy tracking-tight">Our Partners Include:</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-headline text-brand-navy tracking-tight">Our Partners Include:</h2>
           </div>
           {/* 8 Partner Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -204,7 +204,7 @@ export default function Partners() {
                       {partner.badge}
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold font-headline text-partners-navy mb-2 group-hover:text-partners-blue transition-colors">{partner.name}</h3>
+                  <h3 className="text-xl font-extrabold font-headline text-brand-navy mb-2 group-hover:text-partners-blue transition-colors">{partner.name}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{partner.text}</p>
                 </div>
               </div>
@@ -213,7 +213,7 @@ export default function Partners() {
           {/* Verbatim Quote Container */}
           <div className="mt-12 bg-slate-50 border border-slate-200 rounded-2xl p-8 md:p-10 relative overflow-hidden">
             <div className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-full bg-partners-gold/20 flex items-center justify-center shrink-0 text-partners-navy">
+              <div className="w-10 h-10 rounded-full bg-brand-gold/20 flex items-center justify-center shrink-0 text-brand-navy">
                 <span className="material-symbols-outlined text-2xl partner-icon-filled" aria-hidden="true">format_quote</span>
               </div>
               <p className="text-base sm:text-lg text-slate-700 font-medium leading-relaxed italic">
@@ -228,21 +228,21 @@ export default function Partners() {
       {/* Section 2: Operational Capabilities */}
       <section className="py-16 md:py-24 partners-capabilities text-white relative">
         <div className="absolute top-0 right-0 w-96 h-96 bg-partners-blue/20 rounded-full blur-3xl pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-partners-gold/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-gold/10 rounded-full blur-3xl pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="text-partners-gold font-mono text-xs uppercase tracking-widest font-bold mb-3">Operational Capabilities</div>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-headline text-white tracking-tight mb-4">Built for High-Volume Delivery Operations</h2>
+            <div className="text-brand-gold font-mono text-xs uppercase tracking-widest font-bold mb-3">Operational Capabilities</div>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-headline text-white tracking-tight mb-4">Built for High-Volume Delivery Operations</h2>
             <p className="text-base text-slate-300">Our experience includes supporting operational requirements such as:</p>
           </div>
           {/* 9 Operational Capabilities Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {CAPABILITIES.map((capability) => (
-              <div key={capability.title} className="bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-partners-gold/60 transition-all">
-                <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-partners-gold mb-4">
+              <div key={capability.title} className="bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-brand-gold/60 transition-all">
+                <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-brand-gold mb-4">
                   <span className="material-symbols-outlined text-2xl" aria-hidden="true">{capability.icon}</span>
                 </div>
-                <h3 className="text-lg font-bold font-headline text-white mb-2">{capability.title}</h3>
+                <h3 className="text-lg font-extrabold font-headline text-white mb-2">{capability.title}</h3>
                 <p className="text-sm text-slate-300 leading-relaxed">{capability.text}</p>
               </div>
             ))}

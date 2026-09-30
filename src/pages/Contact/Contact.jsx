@@ -68,8 +68,7 @@ export default function Contact() {
     <>
       {/* Hero Banner (Clean Light Style) */}
       <section className="relative contact-hero border-b border-slate-800 overflow-hidden py-14 md:py-20 text-white">
-        <div className="absolute inset-0 opacity-25 pointer-events-none contact-hero-dots"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-[#051424] via-transparent to-transparent opacity-80 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0C2038] via-transparent to-transparent opacity-80 pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-4 tracking-wide uppercase" aria-label="Breadcrumb">
@@ -82,7 +81,7 @@ export default function Contact() {
               <span className="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
               <span>24/7 Dispatch Command Center</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight uppercase mb-4">Get in Touch with Ultra Miles</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight uppercase mb-4">Get in Touch with Ultra Miles</h1>
             <p className="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
               Reach Our Operations Center &amp; Dispatch Team for Bookings, Fleet Leasing, or Enterprise Inquiries across the UAE.
             </p>
@@ -310,7 +309,7 @@ export default function Contact() {
                     <span>Enterprise Non-Disclosure Guaranteed</span>
                   </div>
                   <button
-                    className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-brand-gold hover:bg-brand-gold-hover text-brand-navy font-bold px-8 py-3.5 rounded-full shadow-lg shadow-brand-gold/25 transition-all duration-200 active:scale-95 text-sm uppercase"
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-brand-gold hover:bg-brand-gold-hover text-white font-bold px-8 py-3.5 rounded-full shadow-lg shadow-brand-gold/30 transition-all duration-200 active:scale-95 text-sm"
                     type="submit"
                   >
                     <span>Submit Enquiry</span>
@@ -343,7 +342,7 @@ export default function Contact() {
             {/* Right Action Buttons */}
             <div className="lg:col-span-5 flex flex-col sm:flex-row items-center lg:justify-end gap-4">
               <a
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-brand-navy font-bold text-sm shadow-lg shadow-brand-gold/30 transition-all transform active:scale-95"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-white font-bold text-sm shadow-lg shadow-brand-gold/30 transition-all transform active:scale-95"
                 href="tel:+971547788501"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -352,7 +351,7 @@ export default function Contact() {
                 <span>+971 54 778 8501</span>
               </a>
               <a
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-white/60 hover:border-white text-white font-semibold text-sm px-6 py-3.5 rounded-full transition-all hover:bg-white/10"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-white/60 hover:border-white text-white font-semibold text-sm px-8 py-3.5 rounded-full transition-all hover:bg-white/10"
                 href="mailto:Operations@ultramiles.ae"
               >
                 <span className="material-symbols-outlined text-[18px]" aria-hidden="true">mail</span>

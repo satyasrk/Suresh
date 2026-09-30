@@ -196,7 +196,7 @@ export default function Services() {
               </p>
               <div className="pt-2 flex flex-wrap items-center gap-4">
                 <a
-                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-brand-navy font-bold text-sm transition-all shadow-lg shadow-brand-gold/30"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-brand-gold hover:bg-brand-gold-hover text-white font-bold text-sm transition-all shadow-lg shadow-brand-gold/30"
                   href="#services-matrix"
                 >
                   <span>Explore Fleet Services</span>
@@ -205,7 +205,7 @@ export default function Services() {
                   </svg>
                 </a>
                 <a
-                  className="inline-flex items-center justify-center px-8 py-3.5 rounded-full border border-white/40 hover:border-white text-white font-semibold text-sm transition-all hover:bg-white/10"
+                  className="inline-flex items-center justify-center px-8 py-3.5 rounded-full border border-white/60 hover:border-white text-white font-semibold text-sm transition-all hover:bg-white/10"
                   href="#corporate-quote"
                 >
                   Request B2B Consultation
@@ -491,7 +491,7 @@ export default function Services() {
                     ></textarea>
                   </div>
                   <button
-                    className="w-full rounded-full py-4 bg-brand-gold hover:bg-brand-gold-hover text-brand-navy font-black text-sm uppercase tracking-wider transition-all shadow-lg shadow-brand-gold/30 flex items-center justify-center gap-2 active:scale-95"
+                    className="w-full rounded-full py-4 bg-brand-gold hover:bg-brand-gold-hover text-white font-bold text-sm uppercase tracking-wider transition-all shadow-lg shadow-brand-gold/30 flex items-center justify-center gap-2 active:scale-95"
                     type="submit"
                   >
                     <span>Submit Fleet Inquiry</span>
